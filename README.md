@@ -3,9 +3,9 @@ Markdown editor with React.js using [Crio.do Tutorial](https://www.crio.do/proje
 To do:
 - [x] The entire logic
 - [ ] Style
-- [ ] Download .md file
-- [ ] Copy markdown content
-- [ ] Responsivity
+- [x] Download .md file
+- [x] Copy markdown content
+- [x] Responsivity
 
 # Getting Started with Create React App
 
