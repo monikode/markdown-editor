@@ -6,6 +6,7 @@ To do:
 - [x] Download .md file
 - [x] Copy markdown content
 - [x] Responsivity
+- [ ] Tools for editing text
 
 # Getting Started with Create React App
 
