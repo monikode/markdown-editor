@@ -1,3 +1,11 @@
+# Markdown Editor
+To do:
+- [x] The entire logic
+- [ ] Style
+- [ ] Download .md file
+- [ ] Copy markdown content
+- [ ] Responsivity
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,24 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import MarkdownContext from './context/MarkdownContext';
+import useMarkdownEditor from './hooks/useMarkdownEditor';
+import RawInputArea from './component/RawInputArea';
+import MarkdownSanitized from './component/MarkdownSanitized';
 
 function App() {
   return (
+    <MarkdownContext.Provider value={useMarkdownEditor()}>
+
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <RawInputArea/>
+        <MarkdownSanitized/>
       </header>
     </div>
+    </MarkdownContext.Provider>
+
   );
 }
 
