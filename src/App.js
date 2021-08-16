@@ -3,16 +3,16 @@ import MarkdownContext from './context/MarkdownContext';
 import useMarkdownEditor from './hooks/useMarkdownEditor';
 import RawInputArea from './component/RawInputArea';
 import MarkdownSanitized from './component/MarkdownSanitized';
+import Credits from './component/Credits';
 
 function App() {
   return (
     <MarkdownContext.Provider value={useMarkdownEditor()}>
 
     <div className="App">
-      <header className="App-header">
         <RawInputArea/>
         <MarkdownSanitized/>
-      </header>
+        <Credits/>
     </div>
     </MarkdownContext.Provider>
 

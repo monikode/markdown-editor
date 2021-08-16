@@ -5,7 +5,7 @@ function RawInputArea () {
         <markdownContext.Consumer>
             {value=> {
                 return (
-                    <div>
+                    <div className="input">
                         <textarea value={value.rawText} onChange={value.handleChangeRawInputedText}></textarea>
                     </div>
                 )

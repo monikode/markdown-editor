@@ -5,7 +5,7 @@ function MarkdownSanitized () {
         <MarkdownContext.Consumer>
             {value=> {
                 return (
-                    <div>
+                    <div className="output">
                         Output: <br></br>
                         {ReactHtmlParser(value.getMarkDownAsHTMLOutput())}
                     </div>
