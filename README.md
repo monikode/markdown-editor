@@ -1,5 +1,5 @@
 # Markdown Editor
-Markdown editor with React.js using [Crio.do Tutorial](https://www.crio.do/projects/react-markdown-editor/).
+Markdown editor with React.js using [Crio.do Tutorial](https://www.crio.do/projects/react-markdown-editor/). </br>
 To do:
 - [x] The entire logic
 - [ ] Style
