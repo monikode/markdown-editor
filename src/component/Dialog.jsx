@@ -11,7 +11,7 @@ function Dialog() {
           <>
             {value.open>=0&& (
               <div>
-                <div id="dialog">
+                <div id="dialog" className="window">
                   {texts[value.open]}
                   <button onClick={() => value.handleOpen(-1)}>Close</button>
                 </div>
